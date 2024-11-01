@@ -1,0 +1,155 @@
+.tc-panel {
+    float: left;
+    margin: 30px 0 0 10px;
+    width: 100%;
+}
+.tc-panel-img {
+    float: left;
+    margin-right: 25px;
+}
+.tc-panel-content {
+    border-bottom: 1px solid #cccccc;
+    float: left;
+    padding: 10px 0 15px;
+    width: 40%;
+}
+.tc-panel-head {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.tc-panel-btn {
+    margin: 10px 0;
+}
+.tc-panel-btn .button-primary {
+    font-size: 13px;
+    height: auto;
+    padding: 3px 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#TB_title {
+    height: 1px;
+}
+#TB_ajaxWindowTitle {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 0px 0 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+#TB_ajaxContent table {
+    float: left;
+    width: 100%;
+}
+#TB_ajaxContent table tbody {
+    float: left;
+    padding: 0 0 0 115px;
+}
+#TB_ajaxContent table tbody tr {
+    float: left;
+    width: 100%;
+}
+#TB_ajaxContent table tbody tr td:first-child {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+#TB_ajaxContent table tbody tr td {
+    float: left;
+    width: 100%;
+}
+#TB_ajaxContent table tbody tr td input:not([type="checkbox"]), #TB_ajaxContent table tbody tr td select {
+    height: 40px;
+    padding: 5px 10px;
+    width: 350px;
+}
+#TB_ajaxContent table tbody tr td input[type="submit"] {
+    text-transform: uppercase;
+}
+.parsley-error input,
+.parsley-error select,
+.parsley-error textarea,
+.parsley-error .chosen-container-single .chosen-single,
+input.parsley-error,
+select.parsley-error {
+    border: solid 1px #a94442 !important;
+    box-shadow: 0 0 3px rgba(223, 223, 223, 0.9);
+}
+#TB_ajaxContent table tbody tr td .parsley-errors-list {
+    background: #a94442;
+    bottom: -18px;
+    display: block;
+    float: right;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+#TB_ajaxContent table tbody tr td .parsley-errors-list li {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    list-style: none;
+    padding: 0 8px;
+    text-align: right;
+}
+#TB_ajaxContent .error-msg {
+    color: #a94442;
+    font-size: 13px;
+    font-weight: normal;
+    /*margin: 0 0 10px;*/
+    text-align: center;
+    width: 353px;
+}
+.tc-panel .tc-connection {
+    margin: 0 0 20px 0;
+}
+.tc-conn-heading {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+tr.tc-terms td {
+    margin: 6px 0 0 0px;
+    width: 90% !important;
+}
+tr.tc-terms td:first-child {
+    margin: 0;
+    width: 5% !important;
+}
+#TB_ajaxContent h2{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.tc-logo-header{
+    position: absolute;
+    top: -15%;
+    left: 40%;
+}
+.tc-logo-header.signup{
+    top: -9%;
+}
+#TB_ajaxContent .below-cta{
+    margin: 0 0 0 19%;
+}
+#TB_ajaxContent .above-cta{
+    width: 350px;
+    font-size: 12px;
+    margin: 0;
+    color: #90a4ae;
+}
+#TB_ajaxContent .above-cta span{
+    height: 60px;
+    float: left;
+    width: 37px;
+}
+.websiteIdentifier{
+    width: 280px;
+    text-align: right;
+    font-weight: 600;
+    margin: -10px 0 0 0;
+}
